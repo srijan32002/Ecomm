@@ -83,6 +83,10 @@ const Product= mongoose.model("Product", {
         type: Boolean,
         default: true,
     },
+    description:{
+        type: String,
+        required: false,
+    }
 });
 
 //Creating API for adding Products
