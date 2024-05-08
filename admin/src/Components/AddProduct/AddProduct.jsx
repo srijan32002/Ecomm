@@ -64,8 +64,8 @@ const AddProduct = () => {
             <input value={productDetails.name} onChange={changeHandler} type="text" name='name' placeholder='Title of product' />
         </div>
         <div className="addproduct-itemfield">
-            <p>Description</p>
-            <input value={productDetails.description} onChange={changeHandler} type="text" name='description' placeholder='Description' />
+            <p>Product Description</p>
+            <input value={productDetails.description} onChange={changeHandler} type="text" name='description' placeholder='Description of product' />
         </div>
         <div className="addproduct-price">
             <div className="addproduct-itemfield">
